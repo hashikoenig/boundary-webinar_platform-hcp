@@ -33,7 +33,7 @@ variable "boundary_enabled" {
 
 variable "boundary_tier" {
   description = "Standard or Plus"
-  default     = "standard"
+  default     = "plus"
 }
 
 variable "boundary_username" {
